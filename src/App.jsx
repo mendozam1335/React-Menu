@@ -26,7 +26,7 @@ const App = () => {
     );
   };
   return (
-    <main>
+    <main className="menu">
       <Title />
       <Catagories category={categories} displayCategory={displayCategory} />
       <Menu menu={menu} />
